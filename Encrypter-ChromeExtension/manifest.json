@@ -1,0 +1,14 @@
+{
+    "manifest_version" : 2,
+    "name" : "Encrypter",
+    "version" : "0.001",
+    "browser_action" : {
+        "default_popup" : "popup.html",
+        "default_title" : "A input will come",
+        "default_icon"  : "icon.jpg"
+     },
+     "icons": {
+           "128": "icon.jpg"
+     },
+     "permissions":["activeTab"] 
+}
